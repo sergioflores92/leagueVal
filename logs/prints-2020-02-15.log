@@ -1,0 +1,7 @@
+14:09:33.191 [TestNG] INFO  resources.Base - chrome browser created
+14:09:33.245 [TestNG] INFO  resources.Base - chrome browser created
+14:09:33.282 [TestNG] INFO  resources.Base - chrome browser created
+14:09:38.347 [TestNG] INFO  resources.Base - Succesfully validated H2 text message
+14:09:39.548 [TestNG] INFO  resources.Base - clicked on continue button
+14:09:39.616 [TestNG] INFO  resources.Base - clicked on continue button
+14:09:45.948 [TestNG] INFO  resources.Base - Riot nav-bar is Displayed

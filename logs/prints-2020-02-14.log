@@ -1,0 +1,7 @@
+10:03:59.156 [main] INFO  resources.Base - chrome browser created
+10:04:03.577 [main] INFO  resources.Base - clicked on continue button
+10:04:10.748 [main] INFO  resources.Base - Test username: Matameromas password: 123456
+10:04:12.585 [main] INFO  resources.Base - clicked on continue button
+10:04:17.973 [main] INFO  resources.Base - Test username: MiniLicwxyz password: 997068
+10:04:18.260 [main] INFO  resources.Base - Succesfully selected chrome browser
+10:04:20.656 [main] INFO  resources.Base - chrome browser created

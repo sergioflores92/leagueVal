@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="portfolio.ValidateNavigationBar">
+        <methods>
+          <include name="startDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- portfolio.ValidateNavigationBar -->
+      <class name="portfolio.SignProcess">
+        <methods>
+          <include name="startDriver"/>
+          <include name="tearDown"/>
+          <include name="basePageNavigation" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- portfolio.SignProcess -->
+      <class name="portfolio.LandingPageText">
+        <methods>
+          <include name="startDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- portfolio.LandingPageText -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

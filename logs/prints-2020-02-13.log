@@ -1,0 +1,7 @@
+21:35:24.098 [main] INFO  resources.Base - Riot nav-bar is Displayed
+21:37:51.921 [main] INFO  resources.Base - Succesfully selected chrome browser
+21:37:54.440 [main] INFO  resources.Base - chrome browser created
+21:37:56.925 [main] INFO  resources.Base - clicked on continue button
+21:38:02.816 [main] INFO  resources.Base - Test username: Matameromas password: 123456
+21:38:04.005 [main] INFO  resources.Base - clicked on continue button
+21:38:07.258 [main] INFO  resources.Base - Test username: MiniLicwxyz password: 997068

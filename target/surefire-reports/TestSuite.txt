@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 14.781 s <<< FAILURE! - in TestSuite
+portfolio.SignProcess.startDriver  Time elapsed: 6.551 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20896
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-42B328LA', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: InternetExplorerDriver
+	at portfolio.SignProcess.startDriver(SignProcess.java:25)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20896
+	at portfolio.SignProcess.startDriver(SignProcess.java:25)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at portfolio.SignProcess.startDriver(SignProcess.java:25)
+
+portfolio.LandingPageText.startDriver  Time elapsed: 3.797 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5342
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-42B328LA', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: InternetExplorerDriver
+	at portfolio.LandingPageText.startDriver(LandingPageText.java:22)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5342
+	at portfolio.LandingPageText.startDriver(LandingPageText.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at portfolio.LandingPageText.startDriver(LandingPageText.java:22)
+
+portfolio.ValidateNavigationBar.startDriver  Time elapsed: 3.775 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17474
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-42B328LA', ip: '192.168.0.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: InternetExplorerDriver
+	at portfolio.ValidateNavigationBar.startDriver(ValidateNavigationBar.java:22)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:17474
+	at portfolio.ValidateNavigationBar.startDriver(ValidateNavigationBar.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at portfolio.ValidateNavigationBar.startDriver(ValidateNavigationBar.java:22)
+
